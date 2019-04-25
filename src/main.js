@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store/index';
 import filters from './filters/index';
+import './mock/mock';
 // import wechat from '@/common/wechat/index';
 // 消除 click 移动浏览器300ms延迟
 import attachFastClick from 'fastclick';
