@@ -20,3 +20,4 @@
 1. 微信 js-SDK
 1. 常用工具函数
 1. 引入 mock.js
+1. git commit 规范实现和检查
