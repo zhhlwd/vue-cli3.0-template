@@ -48,13 +48,11 @@ axios.interceptors.response.use(
 );
 
 export default function http(option) {
-  return new Promise((resolve, reject) => {
-    axios(option)
+  return axios(option)
       .then(res => {
-        resolve(res.data);
+        return res.data;
       })
       .catch(err => {
-        reject(err.data);
-      });
+        return err.data;
   });
 }
